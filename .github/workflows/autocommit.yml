@@ -4,10 +4,10 @@ on:
 
   push:
     branches:
-      - master
+      - main
       
   schedule:
-  - cron: "0,30 * * * *"
+  - cron: "0 */6 * * *"
 
 jobs:
   auto_commit:
@@ -25,8 +25,8 @@ jobs:
           
       - name: Commit changes
         run: |
-          git config --local user.email "handimaja@outlook.com"
-          git config --local user.name "handimaja"
+          git config --local user.email "sandilokajay@outlook.com"
+          git config --local user.name "sandilokajay"
           git add -A
           
           arr[0]="feat: 😂 auto commit"
