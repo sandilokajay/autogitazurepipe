@@ -7,7 +7,7 @@ on:
       - master
       
   schedule:
-  - cron: "0 */6 * * *"
+  - cron: "55 * * * *"
 
 jobs:
   auto_commit:
@@ -31,7 +31,7 @@ jobs:
           
           arr[0]="feat: 😂 auto commit"
           arr[1]="feat: 😱 auto commit"
-          arr[2]="feat: 👿 auto committ"
+          arr[2]="feat: 👿 auto commit"
           arr[3]="feat: 💩 auto commit"
           arr[4]="feat: 🙏 auto commit"
           arr[5]="feat: 🙈 auto commit"
